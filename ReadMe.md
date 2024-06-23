@@ -1,20 +1,36 @@
-# Lokal Setup (Windows)
-Install Python https://www.python.org/downloads/
+# Initial Setup (Windows)
 
-Check with 'python --version' if install was successful
+- Install Python https://www.python.org/downloads/
 
-Run 'pip install virtualenv'
+- Check with `python --version` if install was successful
 
-Run 'virtualenv venv', see documentation https://docs.python.org/3/library/venv.html
+- Run `pip install virtualenv`
 
-Run 'venv\Scripts\activate.bat' - 'where python' shows location in directory
+- Run `virtualenv venv`, see documentation https://docs.python.org/3/library/venv.html
 
-Run 'pip install django'
+- Run `venv\Scripts\activate.bat` - `where python` shows location in directory
 
-Run 'django-admin startproject taskful_api'
+# Project setup
 
-Run '.\manage.py runserver' in folder where manage.py is in folder+
+- Run `pip install django`
 
-Run '.\manage.py makemigrations' to apply migrations
+- Run `django-admin startproject taskful_api` to start a project
 
-Run '.\manage.py createsuperuser' to create super user with pw and username/mail
+- Run `pip install djangorestframework` to install rest framework
+
+- Run `pip install markdown` to install markdown
+
+- Run `pip install django-filter` to install django-filter
+
+# Commonly commands
+
+- Run `python manage.py runserver` in folder where manage.py is in folder
+
+- Run `python manage.py makemigrations` to add migrations to migrations folder
+
+- Run `python manage.py migrate` to apply migrations to db
+
+- Run `python manage.py createsuperuser` to create super user with pw and username/mail
+
+
+
