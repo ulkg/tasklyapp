@@ -22,7 +22,9 @@
 
 - Run `pip install django-filter` to install django-filter
 
-# Commonly commands
+- Run `pip install django-rest-framework-social-oauth2` to install module for OAuth2 social authentication support for applications in Django REST Framework.
+
+# Commonly used commands
 
 - Run `python manage.py runserver` in folder where manage.py is in folder
 
