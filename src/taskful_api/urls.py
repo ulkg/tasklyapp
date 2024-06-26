@@ -37,5 +37,6 @@ api_url_patterns = [
 urlpatterns = [
     path('admin/', admin.site.urls),
     # top level api endpoint, everything that is inside api_url_patterns
-    path('api/', include(api_url_patterns))
+    path('api/', include(api_url_patterns)),
+    path('', include('users.urls')),
 ]
